@@ -7,7 +7,7 @@
 html{
     font-family: sans-serif;
     height: 100%;
-    background-color: cornflowerblue;
+    background-color: aliceblue;
 }
 header{
     text-align: center;
@@ -37,7 +37,7 @@ form{
     max-width: 960px;
     margin: 0 auto;
     width: 70vw;
-    background-color: aliceblue;
+    background-color: cornflowerblue;
 }
 
 label{
@@ -52,7 +52,6 @@ input{
     border: 0 solid #e2e8f0;
     font-size: 100%;
     background-color: #edf2f7;
-    color: #1a202c;
     padding: 1rem;
     width: 90%;
     margin-bottom: .75rem;
@@ -139,3 +138,5 @@ nav a{
         margin-top: 2rem;
     }
 }
+
+
