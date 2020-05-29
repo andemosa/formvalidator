@@ -1,0 +1,140 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: sans-serif;
+    height: 100%;
+}
+header{
+    text-align: center;
+    padding-top: 2rem;
+}
+
+main{
+    padding: 2rem 4rem;
+}
+
+h1{
+    color: darkred;
+}
+
+h2{
+    padding-bottom: 1.5rem;
+    font-size: 2rem;
+    color: rgb(110, 22, 22);
+    margin: 0 auto;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem 0;
+    max-width: 960px;
+    margin: 0 auto;
+    width: 70vw;
+}
+
+label{
+    font-size: 1.15rem;
+    color: darkblue;
+    margin-bottom: .25rem;
+    line-height: 2;
+    font-weight: 700;
+}
+
+input{
+    border: 0 solid #e2e8f0;
+    font-size: 100%;
+    background-color: #edf2f7;
+    color: #1a202c;
+    padding: 1rem;
+    width: 90%;
+    margin-bottom: .75rem;
+    border-radius: 5px;
+    display: block;
+}
+
+form button{
+    background-color: rgb(179, 39, 15);
+    color: #fff;
+    margin-top: 3rem;
+    padding: 1rem;
+    font-weight: 700;
+    border: 0 solid #e2e8f0;
+    width: 30%;
+    margin-left: 35%;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    align-content: center;
+    justify-content: center;
+    padding-bottom: 2rem;
+}
+
+nav{
+    padding: 1rem 2rem;
+}
+
+nav a{
+    text-decoration: none;
+    font-size: 1.25rem;
+    color: rgb(94, 91, 91);
+}
+#check{
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+}
+
+#check input{
+    width: 10%;
+    margin-top: 1.5rem;
+}
+
+#check label{
+    font-weight: 500;
+    padding-top: 1rem;
+}
+
+@media only screen and (max-width: 480px) {
+    main{
+        padding: 1.5rem 5%;
+    }
+    h1{
+        font-size: 1.5rem;
+    }
+    h2{
+        padding-left: 1rem;
+        font-size: 1.5rem;
+    }
+
+    form{
+        padding: 0.5rem 1rem 1rem 1rem;
+    }
+
+    input{
+        padding: 0.35rem;
+        width: 90%;
+        margin-bottom: .5rem;
+    }
+
+    form button{
+        margin-top: 2rem;
+        margin-bottom: 0rem;
+        width: 70%;
+        margin-left: 15%;
+    }
+    #check input{
+        width: 50%;
+        margin-top: 2rem;
+    }
+}
+
+

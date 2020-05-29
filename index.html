@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form | DevTask</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header><h1>Andemosa | DevTask</h1></header>
+    <main>
+        
+        <form>
+            <h2>Sign up</h2>
+            <div class="form_elements">
+                <label for="username">Username</label> <br>
+                <input id="username" type="text" name="username" required> <br>
+            </div>
+            <div class="form_elements">
+                <label for="last_name">Last Name</label> <br>
+                <input id="last_name" type="text" name="last_name" required> <br>
+            </div>
+            <div class="form_elements">
+                <label for="first_name">First Name</label> <br>
+                <input id="first_name" type="text" name="first_name" required> <br>
+            </div>
+            <div class="form_elements">
+                <label for="email">Email address</label> <br>
+                <input id="email" type="email" name="email" required> <br>
+            </div>
+            <div class="form_elements">
+                <label for="password">Password</label> <br>
+                <input id="password" type="password" name="password" required> <br>
+            </div>
+            <div id="confirm" class="form_elements">
+                <label for="confirm_password">Confirm Password</label> <br>
+                <input id="confirm_password" type="password" name="confirm_password" required> <br>
+            </div>
+            <div id="check">
+                <input type="checkbox" id="email_offer" name="email_offer" value="yes">
+                <label for="email_offer"> Yes, I would like to receive email updates from Andemosa</label><br>
+            </div>
+            <button id="submit" type="submit">Create Profile</button>
+        </form>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
